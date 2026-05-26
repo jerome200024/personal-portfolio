@@ -80,12 +80,16 @@ export const Hero = () => {
             </div>
 
             {/*Buttons CT*/}
-            <div className="flex flex-wrap gap-4">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
+
+            <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-400">
+              <a href="#contact" className="">
+                <Button size="lg">
+                  Let's Talk <ArrowRight className="w-5 h-5" />
+                </Button>
+              </a>
               <AnimatedBorderButton />
             </div>
+
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-default text-primary font-bold">
                 Social Media:{" "}

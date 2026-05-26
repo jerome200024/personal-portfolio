@@ -12,24 +12,6 @@ const projects = [
     image: "/clinic-preview.png",
     status: "Live",
   },
-  {
-    title: "Your Next Project",
-    description: "Your project description here.",
-    tech: ["React", "Node.js"],
-    liveUrl: "https://your-live-url.com",
-    githubUrl: "https://github.com/jerome200024/your-repo",
-    image: "/your-preview.png",
-    status: "Live",
-  },
-    {
-    title: "Your Next Project",
-    description: "Your project description here.",
-    tech: ["React", "Node.js"],
-    liveUrl: "https://your-live-url.com",
-    githubUrl: "https://github.com/jerome200024/your-repo",
-    image: "/your-preview.png",
-    status: "Live",
-  },
 ];
 
 const GithubIcon = () => (
