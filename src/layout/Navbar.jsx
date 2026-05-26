@@ -24,9 +24,14 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 ${isScrolled ? 'glass-strong py-2' : 'bg-transparent py-3'} z-50 transition-all duration-300`}>
+    <header
+      className={`fixed top-0 left-0 right-0 ${isScrolled ? "glass-strong py-2" : "bg-transparent py-3"} z-50 transition-all duration-300`}
+    >
       <nav className="container mx-auto px-6 flex items-center justify-between ">
-        <a href="home" className="text-xl font-bold tracking-tight hover:text-primary">
+        <a
+          href="home"
+          className="text-xl font-bold tracking-tight hover:text-primary"
+        >
           Jerome<span>.</span>
         </a>
 
@@ -47,7 +52,9 @@ export const Navbar = () => {
 
         {/*Button*/}
         <div className="hidden md:block">
-          <Button size="sm">Hire Me</Button>
+          <a href="#contact">
+            <Button size="sm">Hire Me</Button>
+          </a>
         </div>
         {/*Mobile Menu Button*/}
 
@@ -72,7 +79,9 @@ export const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button size="sm">Contact Me</Button>
+            <a href="#contact">
+              <Button size="sm">Hire Me</Button>
+            </a>
           </div>
         </div>
       )}
