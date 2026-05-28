@@ -101,7 +101,7 @@ export const Hero = () => {
               />
               <SocialIcon
                 url="https://linkedin.com"
-                href="https://www.linkedin.com/in/jerome-lora-4138b83a6/"
+                href="https://www.linkedin.com/in/jerome-lora/"
                 style={{ width: 30, height: 30 }}
               />
             </div>
